@@ -1,0 +1,40 @@
+########### Apply để có thể chạy hàm cuộn chuột xem thêm, collect data
+
+!pip install -q playwright
+!playwright install chromium
+!playwright install-deps chromium
+!pip install -q nest_asyncio
+
+from playwright.async_api import async_playwright
+from playwright.sync_api import sync_playwright
+import asyncio
+import nest_asyncio
+
+import asyncio
+import json
+import re
+import time
+from urllib.parse import urljoin, urldefrag
+
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+
+############ Apply để biểu diễn EDA (có thể lặp)
+
+import re
+import warnings
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+########### Apply để sử dụng model và đưa ra kết quả đánh giá
+
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import BaggingRegressor, RandomForestRegressor
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
