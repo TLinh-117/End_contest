@@ -29,11 +29,20 @@ Laptop Price Prediction in Vietnam giải quyết bài toán định lượng h�
 ### 3. Kết quả của model
 
 ####  Model : BaggingRegressor
-      + R² Score : 0.8217
-      + RMSE     : 8.54
-      + MAE      : 5.83
+ - Test R² Score : 0.7852
+ - Test MAE      : 6.69
+ - Test RMSE     : 12.67
 
 #### Model : RandomForestRegressor
-      + R² Score : 0.8144
-      + RMSE     : 8.71
-      + MAE      : 5.91
+ - Test R² Score : 0.7949
+ - Test MAE      : 6.66
+ - Test RMSE     : 12.38
+
+### Model : DecisionTreeRegressor
+ - Test R² Score : 0.8080
+ - Test MAE      : 6.71
+ - Test RMSE     : 11.98
+### Model : Ridge Regression
+ - Test R² Score : 0.8254
+ - Test MAE      : 6.44
+ - Test RMSE     : 11.42
