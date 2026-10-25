@@ -33,6 +33,8 @@
   + Thêm touch_screen (màn hình cảm ứng)
 
 
+- Nếu đã chỉnh GPU thành tier list thì nên đổi OnehotEncoder thay vì LabelEncoder
+
   + Gộp resolution width/ resolution height thành res (để hai hệ số tương quan cao, cùng hướng đến 1 thông tin trong features là vô nghĩa)
 
 
