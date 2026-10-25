@@ -40,3 +40,5 @@
 
 
 - Nếu đã chỉnh GPU thành tier list thì nên đổi thành LabelEncoder thay vì OnehotEncoder
+
+- Sử dụng GridSearch để tìm tham số tốt hơn
