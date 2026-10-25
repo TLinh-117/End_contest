@@ -39,4 +39,4 @@
   + Thêm screen_hz (tần số quét màn hình)
 
 
-- Nếu đã chỉnh GPU thành tier list thì nên đổi OnehotEncoder thay vì LabelEncoder
+- Nếu đã chỉnh GPU thành tier list thì nên đổi thành LabelEncoder thay vì OnehotEncoder
